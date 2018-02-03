@@ -113,8 +113,6 @@ public class VlcVideoView extends TextureView implements MediaPlayerControl, Tex
 
     @Override
     public void seekTo(int pos) {
-        Toast.makeText(getContext(),"点击了",Toast.LENGTH_SHORT).show();
-        LogUtils.i("taohaili", "点击了");
         videoMediaLogic.seekTo(pos);
     }
 
