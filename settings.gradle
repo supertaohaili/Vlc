@@ -1,0 +1,2 @@
+include ':demo'
+include 'libvlc2.5.17'
